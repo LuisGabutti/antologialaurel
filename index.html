@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antología Laurel: Recurso Digital</title>
+
+  <!-- Fuente Libre Baskerville -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Libre Baskerville', serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-image: url('Páginainicial.png'); /* ← Sustituye con tu imagen */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* ← Fondo fijo */
+      color: #000;
+    }
+
+    /* Contenedor principal */
+    .main-content {
+      display: flex;
+      justify-content: flex-end;
+      padding: 40px;
+    }
+
+    /* Columna derecha */
+    .right-column {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 30px;
+      border-radius: 12px;
+      width: 320px;
+      text-align: left;
+    }
+
+    .right-column h2 {
+      font-size: 24px;
+      color: #225608;
+      margin-bottom: 20px;
+    }
+    
+    .right-column p {
+  font-size: 16px;
+  color: #000;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+    /* Botones principales */
+    .button-group {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .button-group button {
+      background-color: #4A7C0F;
+      color: #000;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: 'Libre Baskerville', serif;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .button-group button:hover {
+      background-color: #5c8f1a;
+    }
+
+    /* Botones inferiores */
+    .footer {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .footer button {
+      background-color: #A7C957;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: 'Libre Baskerville', serif;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .footer button:hover {
+      background-color: #b7d96a;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Contenido principal -->
+  <div class="main-content">
+    <div class="right-column">
+      <h2>Introducción</h2>
+      <p>Este recurso digital tiene la finalidad mostrar la historia, la selección y la recpeción de la antología <em>Laurel</em>. Añadir más explicación.</p>
+      <h2>¿Cómo usar este recurso digital?</h2>
+      <p>Se ofrecen tres tipos de recorridos, los cuales puedes explorar en el orden que gustes. El primero es un recorrido histórico-geográfico en la Ciudad de México de los años cuarenta para conocer el proceso de creación de la antología. El segundo tiene la finalidad de mostrar las relaciones de la selección poética con el repertorio antólogico del cual abreva. El tercero tiene la finalidad de guiar el proceso de recepción de la antología desde una línea de tiempo.</p>
+      <p>Escoge una de las tres opciones para comenzar:</p>
+
+      <div class="button-group">
+        <!-- Sustituye '#' por el enlace correspondiente -->
+        <button onclick="location.href='#'">Historia de una antología</button>
+        <button onclick="location.href='#'">Repertorio y selección de la antología</button>
+        <button onclick="location.href='#'">Recepción de la antología</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botones inferiores -->
+  <div class="footer">
+    <!-- Sustituye '#' por el enlace correspondiente -->
+    <button onclick="window.open('https://antologialaurel.wordpress.com/bibliografia/')">Bibliografía</button>
+    <button onclick="window.open('https://antologialaurel.wordpress.com/comentarios/')">Comentarios</button>
+    <button onclick="window.open('https://antologialaurel.wordpress.com/agradecimientos/')">Agradecimientos</button>
+  </div>
+
+</body>
+</html>
